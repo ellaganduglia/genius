@@ -1,0 +1,93 @@
+/* Fonte*/
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+
+
+
+body {
+    margin: 0;
+    background-color: rgb(208, 255, 239);
+    background: url(img/Fundo-Do-Ceu-Preto-H5.jpg) ;
+}
+
+h1 {
+    color: rgb(236, 253, 0);
+    text-align: center;
+    font-family: Supermercado One;
+    font-size: 50px;
+}
+h2{
+    color: rgb(236, 253, 0);
+    text-align: center;
+    font-family: Supermercado One;
+    font-size: 30px;
+    
+
+}
+
+.txto{
+    border: 4px solid;
+    border-image: linear-gradient(227.91deg,#f2102e 0%,#00E0FF 100%)1;
+    width: 50%;
+    height: 10%;
+    transform: translate(350px);
+}
+
+.main-game {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.genius {
+    display: grid;
+    grid-template-areas: 'verde vermelho'
+    'amarelo azul';
+    grid-gap: 10px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;
+    padding: 5px;
+    margin-top: 2px;
+}
+
+.blue {
+    grid-area: azul;
+    background-color: blue;
+    border-bottom-right-radius: 100%;
+}
+
+.red {
+    grid-area: vermelho;
+    background-color: red;
+    border-top-right-radius: 100%;
+}
+
+.yellow {
+    grid-area: amarelo;
+    background-color: yellow;
+    border-bottom-left-radius: 100%;
+}
+
+.green {
+    grid-area: verde;
+    background-color: green;
+    border-top-left-radius: 100%;
+}
+
+.selected {
+    opacity: 0.4;
+}
+
+
+footer{
+    color: rgb(238, 255, 5);
+    text-align: center;
+    border-top:2px #ffffff solid;
+    
+}
+
